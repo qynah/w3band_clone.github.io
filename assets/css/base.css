@@ -1,0 +1,17 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary: #f44336;
+    --grey: #ccc;
+    --text: #333;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    /* sans-serif: font chữ không chân */
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}

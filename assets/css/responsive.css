@@ -1,0 +1,98 @@
+/* 
+mobile: 0-739px
+tablet: 740-1023px
+pc >= 1024px
+*/
+
+/* PC */
+@media only screen and (min-width: 64em)
+{
+    .pc {
+        display: block;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .tablet {
+        display: block;
+    }
+    
+    
+    /* modal */
+    .modal-container {
+        max-width: 80%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em)
+{
+    .s-mt-8 {
+        margin-top: 0.8rem !important;
+    }
+    .s-col-full,
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .mobile {
+        display: block;
+
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+     
+    #header .search-btn {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+        border-top: 0.05rem solid #464646;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+        border: none;
+    }
+
+    /* #nav li a {
+        padding: 0.1rem 2.4rem;
+    } */
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        
+    }
+    #nav .subnav a {
+        padding: 0.5rem 4.1rem;
+        color: var(--white);
+        border-top: 0.05rem solid #464646;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 1.6rem;
+        width: 100%;
+    }
+
+
+    /* modal */
+    .modal-container {
+        max-width: 96%;
+    }
+
+    .place-buy-btn {
+        padding: 1.2rem 1.6rem;
+    }
+}
